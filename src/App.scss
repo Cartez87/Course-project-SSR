@@ -1,0 +1,55 @@
+#root{
+  background: black;
+}
+
+.App {
+    padding-top: 2em;
+}
+
+.row>* {
+  padding: 0;
+}
+
+.top-panel {
+  margin-bottom: 5em;
+  position: relative;
+  z-index: 2;
+}
+
+.form-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0.7em;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 25px;
+
+  b {
+    font-weight: 600;
+  }
+}
+
+.filters-panel {
+  padding-top: 25px;
+  border-bottom: 2px solid #424242;
+  margin-bottom: 30px;
+}
+
+.movies-wrap {
+  margin: 0 -25px;
+}
+
+.main-section {
+  border-top: 10px solid rgba(#888888, 0.5);
+}

@@ -1,0 +1,24 @@
+
+.search-form {
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.search-form input{
+  width: 100%;
+  padding: 0.7em;
+  margin-right: 10px;
+  background: rgba(50, 50, 50, 0.8);
+  mix-blend-mode: normal;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  border: 0;
+}
+
+.search-form .form-control:focus {
+  box-shadow: none;
+  border-color: #F65261;
+}

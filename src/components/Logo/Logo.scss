@@ -1,0 +1,16 @@
+
+.logo {
+  position: relative;
+  z-index: 2;
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F65261;
+    display: inline-block;
+
+    strong {
+      font-weight: 900;
+    }
+  }
+}
