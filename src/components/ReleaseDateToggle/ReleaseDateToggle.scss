@@ -1,0 +1,76 @@
+
+.css-1s2u09g-control {
+    width: 175px !important;
+    background: none !important;
+    transition: none !important;
+    border: none !important;
+    min-height: auto !important;
+}
+
+.css-14el2xx-placeholder {
+    text-transform: uppercase;
+    color: white !important;
+    letter-spacing: 0.9px;
+}
+
+.css-qc6sy-singleValue {
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.css-7pwich-Input {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: none !important;
+}
+
+.css-tlfecz-indicatorContainer {
+    position: relative;
+    cursor: pointer;
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 7px 6px 0 6px;
+        border-color: #F65261 transparent transparent transparent;
+    }
+}
+
+.css-tj5bde-Svg,
+.css-1okebmr-indicatorSeparator {
+    display: none !important;
+}
+
+.sort-by {
+    color: rgba(white, 0.7);
+    text-transform: uppercase;
+}
+
+.css-26l3qy-menu {
+    background: rgba(50, 50, 50, 1) !important;
+    text-transform: uppercase;
+    font-size: 14px;
+
+    .css-4ljt47-MenuList {
+        >div {
+            cursor: pointer;
+            &:active {
+                background: none !important;
+            }
+        }
+    }
+}
+
+.css-1n7v3ny-option,
+.css-9gakcf-option {
+    background: none !important;
+    &:hover {
+        background: #F65261 !important;
+    }
+}
